@@ -1,0 +1,23 @@
+{
+  "name": "expanse-client",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "0x.js": "^0.38.5",
+    "@0xproject/connect": "^0.6.16",
+    "@0xproject/tslint-config": "^0.4.21",
+    "@0xproject/utils": "^0.7.2",
+    "@types/react-dom": "^16.0.6",
+    "global": "^4.3.2",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "react-scripts-ts": "2.16.0",
+    "typescript": "^2.9.2"
+  },
+  "scripts": {
+    "start": "react-scripts-ts start",
+    "build": "react-scripts-ts build",
+    "test": "react-scripts-ts test --env=jsdom",
+    "eject": "react-scripts-ts eject"
+  }
+}
